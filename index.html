@@ -26,7 +26,7 @@
 <body>
   <header>
     <div></div>
-    <ul>
+    <ul class="d-none d-lg-block">
       <li class="active">Home</li>
       <li>
         <a href="about.html"> About</a>
@@ -35,17 +35,24 @@
         <a href="work.html">Work</a>
         </li>
     </ul>
-    <div class="menu">
-      <div class="menu1"></div>
+
+<div class="dropdown d-lg-none">
+  <div class="menu" onclick="showDropdown()">
+  <div class="menu1"></div>
             <div class="menu2"></div>
       <div class="menu3"></div>
-          <ul class="dropdown">
+  </div>
+          <div id="myDropdown"
+          class="dropdown-content">
             <a href="#" class="active">Home</a>
         <a href="about.html"> About</a>
         <a href="work.html">Work</a>
-        </li>
-    </ul>
-    </div>
+            </div>
+</div>
+
+
+
+
   </header>
   <div class="container">
         <div class="grid">
@@ -65,4 +72,5 @@
              </div>
     </div>
 </body>
+<script src="src/app.js"></script>
 </html>
