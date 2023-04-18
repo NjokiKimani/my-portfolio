@@ -90,7 +90,7 @@ font-size: 40px;
 font-weight: 501;
 text-align: center;
 opacity: 0.9;
-padding-bottom: 15px;
+padding-bottom: 25px;
 }
 .work{
     display: grid;
@@ -120,9 +120,24 @@ padding-bottom: 15px;
     height: 600px;
     object-fit: contain;
 }
+.clockImage, .bikeImage, .dictionaryImage{
+    position: relative;
+}
+.dictionaryImage{
+    top: -100px;
+}
+.clockImage{
+    top: -40px;
+}
+.bikeImage{
+    top: -110px;
+}
 
 
 @media (max-width:800px){
+    h1{
+        padding-bottom: 15px;
+    }
     .container, .work{
         width: 100%;
 

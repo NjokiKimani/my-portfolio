@@ -17,3 +17,59 @@
 
     
                 </div>
+
+
+
+                    <div class="skills">
+      <div class="mastery">
+        <h2>Mastery:</h2>
+        <hr/>
+      </div>
+      <ul class="list">
+        <li>Cloud computing (Microsoft Azure)</li>
+        <li>Front-end development</li>
+        <li>Management consulting</li>
+        <li>
+          <span><i class="fa-brands fa-react"></i></span>
+          React.js
+        </li>
+        <li>Responsive development</li>
+      </ul>
+    </div>
+
+
+
+    .skills{
+    width: 700px;
+    margin: 10px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+}
+.skills h2{
+    font-family: 'Quattrocento', serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.skills .mastery{
+    text-align: right;
+padding-right: 20px;
+}
+.mastery hr{
+    transform: rotate(90deg) translateY(-140px);
+    position: relative;
+    top: 80px;
+}
+.skills ul {
+        list-style: none;
+    transition: 150ms all ease-in-out;
+     width: 400px;
+         padding: 20px;
+         padding-top: 0;
+    border-radius: 5px;
+}
+.skills ul:hover, .hero button:hover, .hero button:active{
+    cursor: pointer;
+    background-color: #efeeee;  
+}
