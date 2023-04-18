@@ -120,7 +120,7 @@ border-color: black;
 opacity: 1;
 }
 .skills{
-    margin-top: 50px;
+    margin-top: 30px;
 display: grid;
 grid-template-columns: repeat(3, 1fr);}
 .tech, .tools{
@@ -139,7 +139,7 @@ grid-template-columns: repeat(3, 1fr);}
     text-align: center;
 }
 footer{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .footerEl{
     padding-top: 10px;
